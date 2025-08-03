@@ -1,0 +1,437 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+
+  </head>
+  <body class="w-screen h-screen font-['Inter']">
+
+<!-- ====================== NAVBAR ====================== -->
+<nav class="fixed top-0 left-0 w-full h-20 bg-white shadow-[0_3px_7px_rgba(0,0,0,0.25)] z-50">
+  <div class="max-w-[1200px] h-full mx-auto flex items-center justify-between px-4">
+    
+    <!-- Logo + Brand -->
+    <div class="flex items-center space-x-3">
+      <img src="img/icon12.png" alt="Logo" class="w-16 h-16 object-contain" />
+        <a href="index.html" class="text-red-500 text-xl font-bold font-['Inter'] no-underline hover:no-underline cursor-pointer">
+        Meowmedic
+        </a>
+    </div>
+
+    <!-- Menu Links -->
+    <div class="flex space-x-6 text-blue-950 text-sm font-normal font-['Inter']">
+      <a href="today_page.html" class="hover:underline">TODAY'S AVAILABILITY</a>
+      <a href="#" class="hover:underline">LOCATIONS</a>
+      <a href="#" class="hover:underline">SERVICES</a>
+      <a href="#" class="hover:underline">ABOUT US</a>
+      <a href="#" class="hover:underline">MORE</a>
+    </div>
+
+    <!-- Right Buttons -->
+    <div class="flex items-center space-x-4">
+      <a href="#" class="text-red-500 text-xl font-bold font-['Inter']">Log in</a>
+      <button class="bg-red-500 text-white text-xl font-extrabold font-['Inter'] px-4 py-2 rounded-xl">
+        BOOK NOW
+      </button>
+    </div>
+
+  </div>
+</nav>
+
+<!-- เว้น1 -->
+<div class="pt-20">
+  <!-- เนื้อหาเว็บทั้งหมด -->
+</div>
+
+<div class="flex justify-center items-center min-h-screen ">
+<div class="w-[1440px] h-[6239px] bg-white">
+
+
+<!-- SECTION -->
+
+<section class="w-full bg-[url('img/bg14.png')] bg-[right_120px_top_15px] bg-no-repeat relative">
+  <!--  คลุมเนื้อหาทั้งหมดและจัดกลาง -->
+  <div class="w-full flex flex-col items-center py-20">
+
+    <!--  รูปหลัก + ข้อความ -->
+    <div class="w-[1200px] p-10 flex gap-10">
+      <!-- รูปหลักด้านซ้าย -->
+      <div class="flex-shrink-0">
+        <img class="w-[575px] h-96 rounded-xl" src="img/meow.png" />
+      </div>
+
+      <!-- ข้อความ + ปุ่ม -->
+      <div class="flex flex-col justify-center">
+        <!-- ข้อความหลัก -->
+        <div class="relative w-96 h-44 mb-6">
+          <!-- พื้นหลัง gradient -->
+          <div class="absolute top-0 left-0 w-full h-20 bg-gradient-to-r from-white to-red-50 z-0 rounded"></div>
+          <!-- ข้อความ -->
+          <div class="relative z-10 text-4xl font-extrabold leading-[64px]">
+            <span class="text-red-500">Easy, Convenient</span><br />
+            <span class="text-blue-950 font-extralight">Vet Care on Your Terms</span>
+          </div>
+        </div>
+
+        <!-- ปุ่ม -->
+        <div class="flex gap-5">
+          <button class="w-56 h-16 bg-red-500 text-white text-base font-extrabold rounded-[10px]">Book now</button>
+          <button class="w-56 h-16 bg-white text-red-500 border-2 border-red-500 text-base font-extrabold rounded-[10px]">
+            View Today's Availability
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <!--  ส่วน We're Different + การ์ด -->
+    <div class="w-full flex justify-center mt-20 gap-40 flex-wrap">
+      
+      <!--  “We’re Different” ฝั่งซ้าย -->
+      <div>
+        <h2 class="text-5xl font-semibold text-blue-950 mb-4">We’re Different</h2>
+        <p class="text-xl font-extralight text-blue-950 leading-loose w-80">
+          Bond Vet is an animal hospital<br />
+          designed around you and your pet.<br />
+          Because that’s how we think pet care should work.
+        </p>
+        <div class="mt-10 bg-[#EBE1E1] w-80 h-24 rounded-2xl relative">
+          <div class="absolute left-[25px] top-[30px] bg-white size-8 rounded-full">
+            <div class="absolute left-[9px] top-[9px] size-3.5 bg-stone-200 rounded-full"></div>
+          </div>
+          <div class="absolute left-[61px] top-[30px] text-white text-xl font-light leading-9">VIEW LOCATIONS</div>
+        </div>
+      </div>
+
+      <!--  การ์ดบริการ 4 ใบ -->
+      <div class="grid grid-cols-2 gap-x-10 gap-y-10">
+        <!-- การ์ด 1 -->
+        <div class="w-60 h-64 bg-white rounded-xl shadow p-4 relative">
+          <img src="img/icon121.png" class="size-28 absolute -top-14 left-1/2 -translate-x-1/2" />
+          <h3 class="text-blue-950 text-lg font-semibold mt-16">Easy Appointments</h3>
+          <p class="text-sm text-blue-950 font-light mt-2">
+            We're a friendly place to bring your pet for wellness visits, vaccines, and urgent care.
+          </p>
+        </div>
+        <!-- การ์ด 2 -->
+        <div class="w-60 h-64 bg-white rounded-xl shadow p-4 relative">
+          <img src="img/icon122.png" class="size-28 absolute -top-14 left-1/2 -translate-x-1/2" />
+          <h3 class="text-blue-950 text-lg font-semibold mt-16">Convenient Hours</h3>
+          <p class="text-sm text-blue-950 font-light mt-2">
+            We offer morning, evening, and weekend hours at select locations.
+          </p>
+        </div>
+        <!-- การ์ด 3 -->
+        <div class="w-60 h-64 bg-white rounded-xl shadow p-4 relative">
+          <img src="img/icon124.png" class="size-28 absolute -top-14 left-1/2 -translate-x-1/2" />
+          <h3 class="text-blue-950 text-lg font-semibold mt-16">Virtual Visits</h3>
+          <p class="text-sm text-blue-950 font-light mt-2">
+            Chat with our vets online instantly via <span class="text-red-500 underline">our telehealth service.</span>
+          </p>
+        </div>
+        <!-- การ์ด 4 -->
+        <div class="w-60 h-64 bg-white rounded-xl shadow p-4 relative">
+          <img src="img/icon123.png" class="size-28 absolute -top-14 left-1/2 -translate-x-1/2" />
+          <h3 class="text-blue-950 text-lg font-semibold mt-16">Pet Portal</h3>
+          <p class="text-sm text-blue-950 font-light mt-2">
+            <span class="text-red-500 underline">Log in</span> to easily access and manage your pet's medical records.
+          </p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    </div>
+
+  </div>
+</section>
+
+<!-- เว้น2 -->
+<div class="flex flex-col items-center gap-6 mt-[80px] ml-auto mr-[750px]">
+  <img src="img/What We Do.png" alt="">
+  <img src="img/Polygon 4.png" alt="">
+</div>
+
+
+
+
+<!-- Section: What We Do -->
+<section class="relative w-full py-32 bg-white flex justify-center
+  bg-[url('img/bg16.png')] bg-no-repeat bg-[length:auto_100%] bg-[left_120px_top_15px]">
+  <div class="relative w-[1200px] flex gap-[160px] pl-[80px]">
+    
+    <!-- กล่องพื้นหลังซ้าย -->
+    <div class="absolute -left-10 top-0 w-[753px] h-[946px] bg-red-50 rounded-xl -z-10"></div>
+
+    <!-- ฝั่งซ้าย -->
+    <div class="w-[400px] flex flex-col justify-center space-y-10 pt-10">
+
+      <!-- ข้อความอธิบาย -->
+      <p class="text-blue-950 text-xl font-light font-['Inter'] leading-loose">
+        We offer both primary & urgent care. That means you can come in for the normal things, like annual exams and vaccines, or those times when your pet seems off and needs veterinary care quick.
+      </p>
+
+      <!-- ปุ่ม See All Services -->
+      <button class="w-56 h-16 bg-red-500 rounded-[10px] text-white text-base font-extrabold font-['Inter']">
+        See All Services
+      </button>
+    </div>
+
+<!-- ฝั่งขวา: รูป -->
+<div class="flex flex-col gap-10">
+  
+  <!-- รูปบน -->
+  <div class="relative w-[500px] h-72 rounded-xl overflow-hidden bg-zinc-300">
+    <img src="img/doc1.png" class="w-full h-full object-cover" />
+    <div class="absolute inset-0 bg-gradient-to-b from-zinc-300/0 from-[53%] to-red-500"></div>
+    
+    <!-- กล่องแดงกลางภาพ -->
+    <div class="absolute bottom-[100px] left-1/2 -translate-x-1/2 w-28 h-20 bg-red-500 rounded-lg flex items-center justify-center">
+      <div class="w-0 h-0 border-t-[12px] border-b-[12px] border-l-[20px] border-t-transparent border-b-transparent border-l-white ml-1"></div>
+    </div>
+  </div>
+
+  <!-- รูปล่าง -->
+  <div class="relative w-[500px] h-72 rounded-xl overflow-hidden bg-zinc-300">
+    <img src="img/doc2.png" class="w-full h-full object-cover" />
+    <div class="absolute inset-0 bg-gradient-to-b from-zinc-300/0 from-[53%] to-red-500"></div>
+    
+    <!-- กล่องแดงกลางภาพ -->
+    <div class="absolute bottom-[100px] left-1/2 -translate-x-1/2 w-28 h-20 bg-red-500 rounded-lg flex items-center justify-center">
+      <div class="w-0 h-0 border-t-[12px] border-b-[12px] border-l-[20px] border-t-transparent border-b-transparent border-l-white ml-1"></div>
+    </div>
+  </div>
+</div>
+  </div>
+
+</section>
+
+
+<!-- กล่องแม่ -->
+<div class="relative w-[1440px] mx-auto mt-64 overflow-hidden bg-white" style="height: 800px;">
+  
+  <!-- ✅ พื้นหลังรูปแค่สูง 750px เท่านั้น -->
+  <div
+    class="w-full h-[750px] bg-cover bg-center"
+    style="background-image: url('img/doc3.png');"
+  ></div>
+  <!-- กล่องรีวิวลูก ลอยอยู่ชิดล่างตรงกลาง -->
+ <div
+    class="absolute rounded-2xl bottom-14 left-1/2 -translate-x-1/2 bg-white bg-opacity-90 backdrop-blur-md rounded-t-3xl shadow-2xl p-8 w-[90%] max-w-2xl mx-auto text-center"
+  >
+    <!-- Star Rating -->
+<div class="flex justify-left mb-4 space-x-2 text-[#FF4646]">
+  <svg class="w-10 h-10 fill-current" viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279L12 18.896l-7.416 3.917 
+             1.48-8.279-6.064-5.828 8.332-1.151z" />
+  </svg>
+  <svg class="w-10 h-10 fill-current" viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279L12 18.896l-7.416 3.917 
+             1.48-8.279-6.064-5.828 8.332-1.151z" />
+  </svg>
+  <svg class="w-10 h-10 fill-current" viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279L12 18.896l-7.416 3.917 
+             1.48-8.279-6.064-5.828 8.332-1.151z" />
+  </svg>
+  <svg class="w-10 h-10 fill-current" viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279L12 18.896l-7.416 3.917 
+             1.48-8.279-6.064-5.828 8.332-1.151z" />
+  </svg>
+  <svg class="w-10 h-10 text-gray-300 fill-current" viewBox="0 0 24 24" aria-hidden="true">
+    <path d="M12 .587l3.668 7.568 8.332 1.151-6.064 5.828 1.48 8.279L12 18.896l-7.416 3.917 
+             1.48-8.279-6.064-5.828 8.332-1.151z" />
+  </svg>
+</div>
+
+
+    <!-- ข้อความรีวิว -->
+    <p class="text-blue-950 text-base md:text-xl font-light leading-loose mb-4 text-left">
+      “The best vet I’ve ever gone to! <br>
+       Always so helpful, kind, honest, and <br>
+       literally saved my puppy’s life.”
+    </p>
+
+    <!-- ชื่อผู้รีวิว -->
+    <p class="text-blue-950 text-base md:text-xl font-bold leading-loose text-left">
+      Rae, Bash’s Dad
+      
+    </p>
+  </div>
+
+</div>
+
+<!-- เว้น3 -->
+<div class="flex flex-col items-center mt-[120px] ">
+  <img src="img/Our Mission.png" alt="">
+  <img src="img/Building_a_better_vet_clinic_for_all_.png" alt="">
+  <img src="img/Polygon 4.png" alt="">
+</div>
+
+
+<div class="bg-white flex items-center justify-center min-h-screen ">
+
+  <div class="relative w-[1071px] h-[834px]">
+
+    <!-- กล่องพื้นหลังชมพู -->
+    <div class="absolute top-0 left-[161px] w-[910px] h-[700px] bg-red-50 rounded-xl"></div>
+
+    <!-- รูปสัตวแพทย์ -->
+    <img src="img/doc4.png" alt="Vet" class="absolute left-0 top-[175px] w-[570px] h-[575px] object-cover rounded-xl" />
+
+    <!-- ข้อความหลัก -->
+    <div class="absolute left-[631px] top-[148px] w-96 text-blue-950 text-lg font-light leading-loose font-['Inter']">
+      We’re a veterinarian-founded company <br>
+       strengthening the human-animal bond <br>
+        through better pet health. We’re<br/><span class="bg-red-500/10">reimagining the veterinary experience</span> with <br>
+        design-forward and calming clinics, tech- <br>
+        enabled tools, and a big focus on the team experience — <span class="bg-red-500/10">all of which translate to warmer, better care for you and your pet</span>. Our #1 goal <br>
+        is to be helpful, and in doing so, set a new <br>
+        standard of care in the vet space.
+    </div>
+
+    <!-- ปุ่ม -->
+    <div class="absolute left-[797px] top-[597px] w-56 h-16 bg-red-500 rounded-[10px] flex items-center justify-center">
+      <div class="text-white text-base font-extrabold leading-relaxed font-['Inter']">About Us</div>
+    </div>
+
+    <!-- โลโก้หมา -->
+    <img src="img/icon12.png" alt="Dog Logo" class="absolute w-48 h-48 left-[441px] top-[635px]" />
+
+  </div>
+
+</div>
+
+
+<div class="flex flex-col items-center gap-8 mt-[160px] ">
+  <img src="img/Conveniently_Located.png" alt="">
+  <img src="img/Find_your_nearest_Bond_Vet_location..png" alt="">
+</div>
+
+<div class="flex flex-col items-center mt-16 ">
+    <img src="img/map.png" alt="">
+</div>
+
+
+
+
+
+</div>
+</div>
+</div>
+
+<!-- Footter -->
+
+<div class="w-screen h-[480px] relative overflow-hidden">
+  <img src="img/meow2.png" alt="" class="w-full h-full object-cover object-bottom">
+  <div class="absolute bottom-34 left-18 font-bold text-5xl text-white">
+    Better Care,<br>
+    Right WhenYou Need It
+  </div>
+
+  <!-- ปุ่มที่มุมซ้ายล่าง -->
+  <button class="absolute bottom-18 left-18 bg-white text-red-500 border-2 font-bold px-4 py-2 rounded-lg text-sm shadow-md">
+    Book a visit
+  </button>
+</div>
+
+
+
+<footer class="bg-blue-100 text-blue-950 text-sm font-inter px-6 pt-12 pb-6">
+  <div class="max-w-screen-xl mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 lg:grid-cols-6 gap-8">
+    
+    <!-- Logo & Newsletter -->
+    <div class="lg:col-span-2 sm:col-span-2">
+      <div class="flex items-center gap-3 mb-4">
+        <img src="img/icon12.png" alt="Logo" class="w-16 h-16">
+        <span class="text-red-500 text-xl font-bold">Meowmedic</span>
+      </div>
+      <p class="text-xs text-black/60 mb-2">Get the scoop about events, promotions, and clinic openings.</p>
+      <div class="flex w-full max-w-xs">
+        <input type="email" placeholder="Your email address" class="text-xs px-4 py-2 rounded-l-2xl bg-white w-full text-black/60 border border-red-500">
+        <button class="bg-red-500 px-4 py-2 rounded-r-2xl">
+          <svg class="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+          </svg>
+        </button>
+      </div>
+      <div class="flex gap-4 mt-4">
+        <div class="w-7 h-7 rounded-full bg-red-500"></div>
+        <div class="w-7 h-7 rounded-full bg-red-500"></div>
+        <div class="w-7 h-7 rounded-full bg-red-500"></div>
+        <div class="w-7 h-7 rounded-full bg-red-500"></div>
+      </div>
+    </div>
+
+    <!-- Contact Us -->
+    <div>
+      <h4 class="text-base font-semibold mb-2">Contact Us</h4>
+      <ul class="text-xs leading-5 space-y-1">
+        <li>Text: <u>(646) 453-XXX8</u></li>
+        <li>Chat: <u>Live Chat</u></li>
+        <li>Call: <u>(212) 430-XXX5</u></li>
+        <li>Other Inquiries</li>
+      </ul>
+    </div>
+
+    <!-- Company -->
+    <div>
+      <h4 class="text-base font-semibold mb-2">Company</h4>
+      <ul class="text-xs leading-5 space-y-1">
+        <li>About Us</li>
+        <li>Careers (We're Hiring!)</li>
+        <li>Swag Shop</li>
+      </ul>
+    </div>
+
+    <!-- Get Care -->
+    <div>
+      <h4 class="text-base font-semibold mb-2">Get Care</h4>
+      <ul class="text-xs leading-5 space-y-1">
+        <li>Locations</li>
+        <li>Our Services</li>
+        <li>Surgeries</li>
+        <li>Dentals</li>
+        <li>Spays & Neuters</li>
+        <li>Telehealth</li>
+      </ul>
+    </div>
+
+    <!-- Resources -->
+    <div>
+      <h4 class="text-base font-semibold mb-2">Resources</h4>
+      <ul class="text-xs leading-5 space-y-1">
+        <li>Blog</li>
+        <li>FAQ</li>
+        <li>Cancellation Policy</li>
+        <li>Gift Cards</li>
+        <li>Refer a Friend (Get $50!)</li>
+        <li>Pet Portal</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Divider -->
+  <div class="border-t border-blue-950 mt-12 pt-4 text-[10px] text-black flex flex-col md:flex-row md:justify-between items-center gap-2 flex-wrap">
+    <div class="space-x-2 text-center md:text-left">
+      <span>Telehealth</span>
+      <span>Terms & Conditions</span>
+      <span>Terms of Use</span>
+      <span>Privacy Policy</span>
+      <span>Accessibility</span>
+    </div>
+    <div class="text-center md:text-right">© 2025 copyright all rights reserved</div>
+  </div>
+</footer>
+
+  </body>
+</html>
