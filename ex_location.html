@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Locations | Meowmedic</title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;700;900&display=swap" rel="stylesheet" />
+</head>
+
+<body class="font-['Inter'] text-blue-950">
+
+  <!-- NAVBAR -->
+  <nav class="fixed top-0 left-0 w-full h-20 bg-white shadow-[0_3px_7px_rgba(0,0,0,0.25)] z-50">
+  <div class="max-w-[1200px] h-full mx-auto flex items-center justify-between px-4">
+    
+    <!-- Logo + Brand -->
+    <div class="flex items-center space-x-3">
+      <img src="img/icon12.png" alt="Logo" class="w-16 h-16 object-contain" />
+        <a href="index.html" class="text-red-500 text-xl font-bold font-['Inter'] no-underline hover:no-underline cursor-pointer">
+        Meowmedic
+        </a>
+    </div>
+
+    <!-- Menu Links -->
+    <div class="flex space-x-6 text-blue-950 text-sm font-normal font-['Inter']">
+      <a href="today_page.html" class="hover:underline">TODAY'S AVAILABILITY</a>
+      <a href="#" class="hover:underline">LOCATIONS</a>
+      <a href="#" class="hover:underline">SERVICES</a>
+      <a href="#" class="hover:underline">ABOUT US</a>
+      <a href="#" class="hover:underline">MORE</a>
+    </div>
+
+    <!-- Right Buttons -->
+    <div class="flex items-center space-x-4">
+      <a href="#" class="text-red-500 text-xl font-bold font-['Inter']">Log in</a>
+      <button class="bg-red-500 text-white text-xl font-extrabold font-['Inter'] px-4 py-2 rounded-xl">
+        BOOK NOW
+      </button>
+    </div>
+
+  </div>
+</nav>
+
+  <!-- MAIN CONTENT -->
+  <main class="pt-28 px-8 max-w-6xl mx-auto">
+
+    <!-- Title -->
+    <p class="text-xs text-blue-950 mb-6">ALL LOCATIONS / <span class="font-bold">BOSTON</span></p>
+
+    <!-- Content Layout -->
+    <div class="flex flex-col lg:flex-row gap-8">
+
+      <!-- Locations List -->
+      <div class="flex-1 space-y-4">
+
+        <!-- Item -->
+        <!-- Back Bay -->
+        <button class="group w-full h-20 border border-gray-300 rounded-xl px-6 flex justify-between items-center 
+        hover:bg-red-50 hover:border-red-500 cursor-pointer transition">
+        <div class="text-left">
+            <h2 class="text-lg font-semibold text-blue-950">Back Bay</h2>
+            <p class="text-sm text-gray-500 group-hover:text-red-500">171 Newbury St Boston, MA</p>
+        </div>
+        <svg class="w-5 h-5 text-gray-400 group-hover:text-red-500 transition" fill="none" stroke="currentColor" stroke-width="2"
+            viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+        </svg>
+        </button>
+
+        <!-- Chestnut Hill -->
+        <button class="group w-full h-20 border border-gray-300 rounded-xl px-6 flex justify-between items-center 
+        hover:bg-red-50 hover:border-red-500 cursor-pointer transition mt-4">
+        <div class="text-left">
+            <h2 class="text-lg font-semibold text-blue-950">Chestnut Hill</h2>
+            <p class="text-sm text-gray-500 group-hover:text-red-500">1 Boylston St Newton, MA</p>
+        </div>
+        <svg class="w-5 h-5 text-gray-400 group-hover:text-red-500 transition" fill="none" stroke="currentColor" stroke-width="2"
+            viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+        </svg>
+        </button>
+
+        <!-- Lynnfield -->
+        <button class="group w-full h-20 border border-gray-300 rounded-xl px-6 flex justify-between items-center 
+        hover:bg-red-50 hover:border-red-500 cursor-pointer transition mt-4">
+        <div class="text-left">
+            <h2 class="text-lg font-semibold text-blue-950">Lynnfield</h2>
+            <p class="text-sm text-gray-500 group-hover:text-red-500">1360 Market St Lynnfield, MA</p>
+        </div>
+        <svg class="w-5 h-5 text-gray-400 group-hover:text-red-500 transition" fill="none" stroke="currentColor" stroke-width="2"
+            viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+        </svg>
+        </button>
+
+        <!-- Seaport -->
+        <button class="group w-full h-20 border border-gray-300 rounded-xl px-6 flex justify-between items-center 
+        hover:bg-red-50 hover:border-red-500 cursor-pointer transition mt-4">
+        <div class="text-left">
+            <h2 class="text-lg font-semibold text-blue-950">Seaport</h2>
+            <p class="text-sm text-gray-500 group-hover:text-red-500">117 Autumn Ln Boston, MA</p>
+        </div>
+        <svg class="w-5 h-5 text-gray-400 group-hover:text-red-500 transition" fill="none" stroke="currentColor" stroke-width="2"
+            viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+        </svg>
+        </button>
+
+        <!-- Somerville -->
+        <button class="group w-full h-20 border border-gray-300 rounded-xl px-6 flex justify-between items-center 
+        hover:bg-red-50 hover:border-red-500 cursor-pointer transition mt-4">
+        <div class="text-left">
+            <h2 class="text-lg font-semibold text-blue-950">Somerville</h2>
+            <p class="text-sm text-gray-500 group-hover:text-red-500">320 Foley St Somerville, MA</p>
+        </div>
+        <svg class="w-5 h-5 text-gray-400 group-hover:text-red-500 transition" fill="none" stroke="currentColor" stroke-width="2"
+            viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+        </svg>
+        </button>
+
+        <!-- Watertown -->
+        <button class="group w-full h-20 border border-gray-300 rounded-xl px-6 flex justify-between items-center 
+        hover:bg-red-50 hover:border-red-500 cursor-pointer transition mt-4">
+        <div class="text-left">
+            <h2 class="text-lg font-semibold text-blue-950">Watertown</h2>
+            <p class="text-sm text-gray-500 group-hover:text-red-500">537 Arsenal St Watertown, MA</p>
+        </div>
+        <svg class="w-5 h-5 text-gray-400 group-hover:text-red-500 transition" fill="none" stroke="currentColor" stroke-width="2"
+            viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+        </svg>
+        </button>
+
+
+      </div>
+
+      <!-- Map -->
+      <div class="flex-1">
+        <img src="img/Map_boston1.png" alt="Boston Map" class="rounded-xl shadow" />
+      </div>
+
+    </div>
+
+    <!-- Description Section -->
+    <section class="mt-16 text-center">
+      <h2 class="text-2xl font-bold mb-4 border-b-2 border-blue-950 inline-block pb-2">Boston Animal Hospitals</h2>
+      <p class="text-gray-700 text-sm max-w-3xl mx-auto leading-relaxed mt-4">
+        Bond Vet offers primary and urgent care for Boston pets. With multiple animal hospitals in the area, we offer caring, convenient care in a welcoming environment. Our highly trained and collaborative Boston vet clinic team comes from a broad background of general practice and emergency care. They are well equipped to handle a wide range of cases, from primary care (like annual checkups, vaccines, and dental cleanings) to urgent care (like diarrhea, wounds, rashes, coughing, behavioral changes, and other non-life-threatening symptoms) and surgeries (like spays and neuters, specialty orthopedic surgeries, and mass removals). In short, our vet clinics are here to be your one-stop shop for veterinary services.
+      </p>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="mt-24 bg-blue-100 text-sm text-blue-950 px-8 py-12">
+    <div class="max-w-[1200px] mx-auto grid grid-cols-1 md:grid-cols-6 gap-8">
+      
+      <!-- Logo + Subscribe -->
+      <div class="md:col-span-2 space-y-4">
+        <div class="flex items-center gap-3">
+          <img src="img/icon12.png" alt="Logo" class="w-12 h-12" />
+          <span class="text-red-500 text-xl font-bold">Meowmedic</span>
+        </div>
+        <p class="text-xs text-black/60">Get the scoop about events, promotions, and clinic openings.</p>
+        <div class="flex">
+          <input type="email" placeholder="Your email address" class="text-xs px-4 py-2 rounded-l-2xl bg-white border border-red-500 w-full">
+          <button class="bg-red-500 px-4 py-2 rounded-r-2xl">
+            <svg class="w-4 h-4 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+            </svg>
+          </button>
+        </div>
+        <div class="flex gap-3">
+          <div class="w-6 h-6 bg-red-500 rounded-full"></div>
+          <div class="w-6 h-6 bg-red-500 rounded-full"></div>
+          <div class="w-6 h-6 bg-red-500 rounded-full"></div>
+          <div class="w-6 h-6 bg-red-500 rounded-full"></div>
+        </div>
+      </div>
+
+      <!-- Column links -->
+      <div>
+        <h4 class="font-semibold mb-2">Contact Us</h4>
+        <ul class="text-xs space-y-1">
+          <li>Text: <u>(646) 453-XXXX</u></li>
+          <li>Chat: <u>Live Chat</u></li>
+          <li>Call: <u>(212) 430-XXXX</u></li>
+          <li>Other Inquiries</li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="font-semibold mb-2">Company</h4>
+        <ul class="text-xs space-y-1">
+          <li>About Us</li>
+          <li>Careers (We’re Hiring!)</li>
+          <li>Swag Shop</li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="font-semibold mb-2">Get Care</h4>
+        <ul class="text-xs space-y-1">
+          <li>Locations</li>
+          <li>Our Services</li>
+          <li>Surgeries</li>
+          <li>Dentals</li>
+          <li>Spays & Neuters</li>
+          <li>Telehealth</li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="font-semibold mb-2">Resources</h4>
+        <ul class="text-xs space-y-1">
+          <li>Blog</li>
+          <li>FAQ</li>
+          <li>Cancellation Policy</li>
+          <li>Gift Cards</li>
+          <li>Refer a Friend</li>
+          <li>Pet Portal</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Divider -->
+    <div class="border-t mt-8 pt-4 text-[10px] text-black flex justify-between flex-wrap gap-2">
+      <div class="space-x-2">
+        <span>Telehealth</span>
+        <span>Terms & Conditions</span>
+        <span>Terms of Use</span>
+        <span>Privacy Policy</span>
+        <span>Accessibility</span>
+      </div>
+      <div>© 2025 copyright all rights reserved</div>
+    </div>
+  </footer>
+
+</body>
+</html>
